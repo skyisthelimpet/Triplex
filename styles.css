@@ -1,0 +1,160 @@
+/* TITLE SECTION */
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-style: solid;
+  border-color: rgba(255, 254, 254, 0.268);
+  border-bottom-width: 1px;
+}
+
+.navbar-nav {
+  padding-right: 10%;
+}
+
+.navbar-brand {
+  font-family: "Cardo";
+  font-size: 2.5rem;
+  color: wheat;
+  padding-left: 10%;
+}
+
+@media (max-width:992px){
+  .navbar-brand {
+    padding-left: 0;
+  }
+}
+
+.nav-item {
+  font-family: "Montserrat";
+  opacity: 0.6;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.title-container {
+  text-align: center;
+  background-image: url("images/bg-beach.jpg");
+  padding-bottom: 10rem;
+}
+
+.landing-page-header {
+  padding-top: 4%;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 6rem;
+  color: gainsboro;
+}
+
+@media (max-width: 992px){
+  .landing-page-header {
+    padding-top: 60%;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 3rem;
+    color: gainsboro;
+  }
+}
+
+.header-subtitle {
+  padding-top: 1rem;
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  color: gainsboro;
+}
+
+.btn-ldp {
+  margin-top: 4%;
+  font-family: "Playfair Display";
+  color: gainsboro;
+}
+
+@media (max-width:992px){
+  .btn-ldp {
+    margin-top: 25%;
+    font-family: "Playfair Display";
+    color: gainsboro;
+  }
+}
+
+/* FEATURES */
+
+#features {
+  text-align: center;
+  padding: 6rem 5% 6rem 5%;
+  font-family: "Montserrat";
+  background-color: #182747;
+}
+.features-header {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: wheat;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card-heading {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-col {
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.features-subtext {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  color: #8f8f8f;
+}
+
+/* FOOTER */
+
+#footer {
+  color: wheat;
+  text-align: center;
+  background-color: rgb(51, 51, 107);
+  padding-top: 3rem;
+  font-family: 'Montserrat';
+}
+
+.copyright{
+
+padding-top: 2rem;
+margin-bottom: 0;
+}
+
+.footer-links{
+  color: wheat;
+  text-decoration: none;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.mymark{
+  font-family: 'Pacifico';
+  font-size: small;
+  margin-bottom: 0;
+  padding-right: 3px;
+  text-align: right;
+}
